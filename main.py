@@ -143,7 +143,7 @@ def main():
         'signatory_sites': signatory_sites
     }
     df = pd.DataFrame.from_dict(data)
-    df.to_csv('signatories.csv', index=False)
+    df.to_csv('signatories2.csv', index=False)
 
 if __name__=='__main__':
     main()
